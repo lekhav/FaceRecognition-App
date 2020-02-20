@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+}
+
+.center {
+  display:flex;
+  justify-content: center;
+}
+
+.particles {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1
+  /* z-index is used along with position, it says on what layer we want the image to be on. 
+  -1 says it should be below everything else in the website */
+}
